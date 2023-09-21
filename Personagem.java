@@ -2,9 +2,9 @@ public class Personagem{
 
     //atributos ou propriedades
     String nome;
-    int energia;
-    int fome;
-    int sono;
+    int energia = 10;
+    int fome = 0;
+    int sono = 0;
     //comportamentos (metódos)
     void cacar (){
        if (energia >= 2){
