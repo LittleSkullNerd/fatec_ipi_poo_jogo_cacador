@@ -5,7 +5,6 @@ public class Personagem{
     int energia = 10;
     int fome = 0;
     int sono = 0;
-    int soneca;
     //comportamentos (metódos)
     void cacar (){
        if (energia >= 2){
